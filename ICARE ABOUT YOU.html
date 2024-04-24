@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCare About You</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: image-set("bokur.jpg.jpg");
+            background-color: #ffffff;
+            color: #fff; /* Set warna teks menjadi putih */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #ffffff;
+            text-align: center;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: #eee;
+            text-decoration: none;
+            margin: 0 15px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: #fff;
+        }
+        .section {
+            display: none;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background-image: image-set("ta.jpeg");
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+        }
+        .section.active {
+            display: block;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #fff5f5;
+            text-align: center;
+        }
+        .section p {
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 8px;
+        }
+        .submenu {
+            margin-top: 20px;
+        }
+        .submenu h3 {
+            color: #01f809;
+        }
+        .submenu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .submenu ul li {
+            color: #fffbfb;
+            margin-bottom: 8px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>iCare About You</h1>
+        </div>
+        <div class="navbar">    
+            <a href="#" class="home-link">Home</a>
+            <a href="#" class="tentang-kami-link">Tentang Kami</a>
+            <a href="#" class="icare-bonding-link">iCare Bonding Trip</a>
+        </div>
+        <div class="section" id="home-section">
+            <h2>Home</h2>
+            <p>Hi iCare About You!</p>
+            <img src="bokur.jpg (1).png">
+            <p>ICARE SERU BANGET!</p>
+            <img src="VET (1).jpg">
+            <img src="VET (2).jpg">
+            <img src="VET (3).jpg">
+            <img src="VET (4).jpg">
+            <img src="VET (5    ).jpg">
+        </div>
+        <div class="section" id="tentang-kami-section">
+            <h2>Tentang Kami</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jabatan</th>
+                        <th>Nama</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Core Team Leader</td>
+                        <td>Darrel Markus</td>
+                    </tr>
+                    <tr>
+                        <td>Core Team Leader</td>
+                        <td>Raphael Mendrofa</td>
+                    </tr>
+                    <tr>
+                        <td>Core Team Leader</td>
+                        <td>Audrey Cheryl</td>
+                    </tr>
+                    <tr>
+                        <td>Core Team Leader</td>
+                        <td>Lois Deborah</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Jonathan Sianturi</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Fidelia Raharjo</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>David Nonci</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Natanael Siburian</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Okta Hutapea</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Nicole Aurel</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Grace Thetrasakti</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Elysia Thetrasakti</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Shelina Kambey</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Sharilyn Kambey</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Rizky Adi Permana</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Yoel Siagian</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Yabes Eben Heazer</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Russel Palar</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Reinaldy Thendean</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Pixel Sitanayah</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Sharon Gennedy</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Allen Sagrim</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Member</td>
+                        <td>Bryan Lefrans Simarmata</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="section" id="icare-bonding-trip-section">
+            <h2>iCare Bonding Trip</h2>
+            <div class="submenu" id="location-submenu">
+                <h3>Lokasi</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15810.212429810403!2d106.8861923!3d-6.7035681000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fd5a9b400447%3A0xfec3e4cc8b5d5d38!2sPuncak%2C%20Cisarua%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1648916500675!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+                <button onclick="window.open('https://www.airbnb.com/rooms/813876825632508294?adults=15&check_in=2024-05-04&check_out=2024-05-05&source_impression_id=p3_1713799423_98tCxyQ%2FTNsOPI7e&previous_page_section_name=1000&federated_search_id=fd6415fe-28c0-4e31-a13a-1ef21259b43c', '_blank');">View Villa</button>
+            </div>
+            <div class="submenu" id="schedule-submenu">
+                <h3>Jadwal Perjalanan</h3>
+                <p>Berangkat: 4 Mei 2024</p>
+                <p>Pulang: 5 Mei 2024</p>
+            </div>
+            <div class="submenu" id="participants-submenu">
+                <h3>Team</h3>
+                <ul>
+                    <li>Abraham</li>
+                    <li>Nicole</li>
+                    <li>Nonci</li>
+                    <li>Bry</li>
+                    <li>Audrey</li>
+                    <li>Lois</li>
+                    <li>Shelina</li>
+                    <li>Sharilyn</li>
+                    <li>Raphael</li>
+                    <li>Grace</li>
+                    <li>Fide</li>
+                    <li>Elysia</li>
+                    <li>Darrel</li>
+                    <li>Natan</li>
+                    <li>Okta</li>
+                    <li>Yoel</li>
+                    <li>Albert</li>
+                    <li>Russel</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const homeLink = document.querySelector('.home-link');
+            const tentangKamiLink = document.querySelector('.tentang-kami-link');
+            const icareBondingLink = document.querySelector('.icare-bonding-link');
+
+            homeLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                toggleSection('home-section');
+            });
+
+            tentangKamiLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                toggleSection('tentang-kami-section');
+            });
+
+            icareBondingLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                toggleSection('icare-bonding-trip-section');
+            });
+
+            function toggleSection(sectionId) {
+                document.querySelectorAll('.section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                document.getElementById(sectionId).classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
